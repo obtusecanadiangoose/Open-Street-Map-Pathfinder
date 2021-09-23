@@ -6,7 +6,7 @@ import os
 output = True
 
 #The starting point will be the closest node (intersection) to this point
-origin = (43.693450, -80.385900)
+origin = (43.534952, -80.285676)
 
 #The minimum distance (in Metres) that the path must be
 dist = 10000
@@ -170,7 +170,6 @@ print(curr_path)
 fig, ax = ox.plot_graph_route(G, curr_path)
 print("Total Distance: " + str(sum(total_dist) // 1))
 fig.savefig("output")
-counter += 1
 if output == True:
 #a lazy way to make the final frame of the animation longer
     fig.savefig(str(counter))

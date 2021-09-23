@@ -3,6 +3,10 @@ A pathfinding program using OpenStreetMaps
 
 Using recursion it can detect dead-ends and back track far enough back to find a different path
 
+
+*There is a noticeable performance decrease when used in an area with many nodes (ie, large cities)*
+
+
 ![demo](animation.gif)
 *An example of a path with a minimum distance of 10k*
 
