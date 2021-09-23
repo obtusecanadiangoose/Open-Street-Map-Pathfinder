@@ -8,6 +8,8 @@ Using recursion it can detect dead-ends and back track far enough back to find a
 
 
 ![demo](animation.gif)
+
+
 *An example of a path with a minimum distance of 10k*
 
 
